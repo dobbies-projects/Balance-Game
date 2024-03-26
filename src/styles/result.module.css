@@ -1,4 +1,141 @@
+.container {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+
 .title {
   font-weight: 800;
-  font-size: 48px;
+  font-size: 40px;
+}
+
+.subTitle {
+  font-weight: 600;
+  font-size: 24px;
+  color: #747474;
+  margin-top: 16px;
+}
+
+.result_container {
+  margin: 50px 0;
+}
+
+.q_num {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.answers_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.answer {
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding: 20px 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.answer_progress_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #e8e8e8;
+  border-radius: 30px 0 0 30px;
+  z-index: -1;
+}
+
+.answer_content {
+  font-weight: 600;
+  font-size: 16px;
+  color: #747474;
+  text-align: left;
+  width: 65%;
+}
+
+.answer_ratio {
+  font-weight: 700;
+  font-size: 20px;
+  color: #747474;
+}
+
+.answer_majority {
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e1ebff;
+  border-radius: 30px;
+  padding: 20px 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.answer_progress_bar_majority {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #c5d9ff;
+  border-radius: 30px 0 0 30px;
+  z-index: -1;
+}
+
+.answer_content_majority {
+  font-weight: 600;
+  font-size: 16px;
+  color: #4880ed;
+  text-align: left;
+  width: 65%;
+}
+
+.answer_ratio_majority {
+  font-weight: 700;
+  font-size: 20px;
+  color: #4880ed;
+}
+
+.share_container {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.kakao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe300;
+  width: 72px;
+  height: 72px;
+  border-radius: 36px;
+  cursor: pointer;
+}
+
+.link {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 3px;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.link_text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #747474;
 }
