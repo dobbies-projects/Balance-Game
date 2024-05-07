@@ -62,7 +62,6 @@ const Game = () => {
 
     console.log('Data', resultData);
 
-    setAnswers(updatedAnswers);
   };
 
 
