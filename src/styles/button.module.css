@@ -1,0 +1,24 @@
+.container {
+  background-color: #4880ed;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.container_inactive {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.content {
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.content_inactive {
+  font-weight: 600;
+  font-size: 24px;
+  color: #747474;
+}
